@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VERTIKAL – Segurança Inteligente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --cor-principal: #012B28;     /* 60% Verde Escuro */
+      --cor-secundaria: #C5DCC9;    /* 30% Verde Claro */
+      --cor-destaque: #FF9800;      /* 10% Laranja */
+      --branco: #FFFFFF;
+      --cinza: #F5F5F5;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--cinza);
+      color: var(--cor-principal);
+    }
+
+    header {
+      background-color: var(--cor-principal);
+      color: var(--branco);
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+    .cta {
+      margin-top: 2rem;
+    }
+
+    .cta a {
+      background-color: var(--cor-destaque);
+      color: var(--branco);
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 6px;
+    }
+
+    .section {
+      margin-top: 4rem;
+    }
+
+    .section h3 {
+      color: var(--cor-principal);
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .section p {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    footer {
+      background-color: var(--cor-principal);
+      color: var(--branco);
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background-color: var(--branco);
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .card h4 {
+      margin-top: 0;
+      color: var(--cor-principal);
+    }
+
+    .logo {
+      max-width: 160px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="https://vertikal.website/logo.png" alt="Logo VERTIKAL" class="logo" />
+    <h1>VERTIKAL</h1>
+    <p>A nova segurança: conectada, inteligente, técnica.</p>
+  </header>
+
+  <section class="hero container">
+    <h2>Transforme sua gestão de segurança com a VERTIKAL</h2>
+    <p>A plataforma digital definitiva para operações em altura e espaços confinados. Automatize PETs, APRs, registros, documentos e certificações com inteligência artificial e rastreabilidade total.</p>
+    <div class="cta">
+      <a href="https://app.vertikal.website" target="_blank">Acessar Plataforma</a>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h3>Por que escolher a VERTIKAL?</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>Documentação Automática</h4>
+        <p>Geração instantânea de PETs, APRs, planos de resgate e relatórios de conformidade.</p>
+      </div>
+      <div class="card">
+        <h4>Dispositivo VERTIKAL LASER+</h4>
+        <p>Integração com medição digital para ambientes confinados. Dados enviados direto ao sistema via app.</p>
+      </div>
+      <div class="card">
+        <h4>Certificados Validados por IA</h4>
+        <p>Validação automática de documentos e treinamentos via OCR inteligente e reconhecimento documental.</p>
+      </div>
+      <div class="card">
+        <h4>Resposta a Auditorias</h4>
+        <p>Tenha acesso imediato ao histórico técnico, documentos e ARTs. Evite multas e interdições.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h3>Fale com nosso time</h3>
+    <p>Nosso atendimento é humano, técnico e dedicado à sua realidade. Queremos facilitar sua gestão de SST.</p>
+    <p>
+      📞 WhatsApp: <a href="https://wa.me/5555999020033" target="_blank">(55) 99902-0033</a><br>
+      📧 E-mail: <a href="mailto:contato@vertikal.website">contato@vertikal.website</a><br>
+      📷 Instagram: <a href="https://instagram.com/vertikal_brasil" target="_blank">@vertikal_brasil</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VERTIKAL TECH LTDA</p>
+    <p>Rua Domingos Meller, 27 – Bairro Glória – Ijuí/RS – CEP 98700-000</p>
+  </footer>
+</body>
+
+</html>
